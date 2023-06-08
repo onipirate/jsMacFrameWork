@@ -1,0 +1,14 @@
+{
+  "diff": true,
+  "package": "./package.json",
+  "reporter": ["mocha-multi-reporters"],
+  "require": ["ts-node/register", "tsconfig-paths/register"],
+  "retries": 1,
+  "slow": "3000",
+  "timeout": "30000",
+  "reporter-option": "configFile=.mocharc.json",
+  "reporterEnabled": "allure-mocha, mochawesome",
+  "allureMochaReporterOptions": {
+    "resultsDir": "./allure-results"
+  }
+}

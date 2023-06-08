@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "types": [
+      "node",
+      "@wdio/globals/types",
+      "expect-webdriverio",
+      "@wdio/mocha-framework",
+      "mocha"
+    ],
+    "resolveJsonModule": true,
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "allowJs": true,
+    "outDir": "dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules"]
+}
